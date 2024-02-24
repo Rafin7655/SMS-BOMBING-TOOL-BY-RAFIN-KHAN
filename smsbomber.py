@@ -299,7 +299,8 @@ FACEBOOK  : RAFIN KHAN
  |_|  \_\/_/    \_\_|    |_____|_| \_|
 
  TNQ FOR USING OUR TOOLS 🖤🥰
-""")
+""")  
+  os.system("xdg-open https://www.facebook.com/profile.php?id=100080364354863&mibextid=ZbWKwL")
   os.system("xdg-open https://t.me/Rafinuwi")
   sys.exit()
 baner= os.system("figlet -f slant RAFIN")
