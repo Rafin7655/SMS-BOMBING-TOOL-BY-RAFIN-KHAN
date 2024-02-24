@@ -9,7 +9,7 @@ import os
 import requests
 import smtplib
 
-os.system("clear")
+os.system("xdg-open https://t.me/Rafinuwi")
 def slw(l):
   for i in l:
     sys.stdout.write(i)
