@@ -301,7 +301,6 @@ FACEBOOK  : RAFIN KHAN
  TNQ FOR USING OUR TOOLS 🖤🥰
 """)    
   os.system("xdg-open https://www.facebook.com/profile.php?id=100080364354863&mibextid=ZbWKwL")
-  os.system("xdg-open https:t.me/Rafinuwi")
   sys.exit()
 baner= os.system("figlet -f slant RAFIN")
 baner = str(baner)
@@ -318,8 +317,6 @@ print(logo)
 print("[01] START SMS BOMBING ")
 print("[02] CONTACT ME ON FACEBOOK ")
 print("××××××××××××××××××××××××××××××××××××××××××××")
-os.system("xdg-open https://www.facebook.com/profile.php?id=100080364354863&mibextid=ZbWKwL") 
-os.system("xdg-open https:t.me/Rafinuwi")
 usr=input("\033[38;5;195m[\033[38;5;46m+\033[38;5;195m]\033[38;5;46m YOUR CHOICE \033[38;5;195m: ")
 usr=usr.replace(" ","")
 if usr== "1" or usr== "01":
