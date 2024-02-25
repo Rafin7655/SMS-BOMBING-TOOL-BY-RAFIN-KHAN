@@ -21,7 +21,7 @@ def primiam():
   os.system("clear")
   logo="""\033[38;5;46m
   
-  
+os.system("xdg-open https://www.facebook.com/profile.php?id=100080364354863&mibextid=ZbWKwL")  
 
 
 $$$$$$$\   $$$$$$\  $$$$$$$$\ $$$$$$\ $$\   $$\ 
